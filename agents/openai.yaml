@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议内容包生成助手"
+  short_description: "把杂乱会议整理为三类可视化文本包"
+  default_prompt: "Use $meeting-content-packager to turn this meeting transcript into H5, PPT, and infographic text packages."
