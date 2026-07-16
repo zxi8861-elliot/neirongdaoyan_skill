@@ -1,4 +1,4 @@
 interface:
-  display_name: "会议主内容池"
-  short_description: "先把会议整理成凝练的内容池合同"
-  default_prompt: "Use $meeting-content-pool-cn to generate a concise content-pool.json from this meeting transcript."
+  display_name: "会议内容导演主入口"
+  short_description: "输入会议原文，一键生成内容池、PPT、信息图和H5四个JSON"
+  default_prompt: "Use $meeting-content-pool-cn to process this meeting transcript and generate four separate JSON files: content-pool.json, ppt-content-package.json, infographic-content-package.json, and h5-content-package.json."
