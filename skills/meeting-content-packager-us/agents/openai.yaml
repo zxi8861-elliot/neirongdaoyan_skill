@@ -1,4 +1,0 @@
-interface:
-  display_name: "美区会议内容导演"
-  short_description: "把美区会议整理为决策、取舍、责任和后续行动清晰的内容包"
-  default_prompt: "Use $meeting-content-packager-us to turn this US-context meeting transcript into content-pool, H5, PPT, and infographic JSON packages."

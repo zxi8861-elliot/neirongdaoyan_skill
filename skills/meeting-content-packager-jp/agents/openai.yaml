@@ -1,4 +1,0 @@
-interface:
-  display_name: "日区会议内容导演"
-  short_description: "把日区会议里的合意、顾虑、边界和后续确认整理为内容包"
-  default_prompt: "Use $meeting-content-packager-jp to turn this Japan-context meeting transcript into content-pool, H5, PPT, and infographic JSON packages."
