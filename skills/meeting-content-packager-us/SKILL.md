@@ -1,9 +1,21 @@
 ---
-name: meeting-content-packager
-description: 当需要把会议原文、访谈、讨论记录、周会、复盘或头脑风暴整理为统一内容池，并分别输出 PPT、信息图、分析总结 H5 三份可交给视觉生成流程的中文内容包时使用。适用于要求同一会议在多种产物中主题一致、事实不跑偏、禁止过度包装的场景。
+name: meeting-content-packager-us
+description: 专门用于梳理美区语境的英文或中英混合会议原文、访谈、产品评审、商业讨论、复盘和执行会议，先整理为统一内容池，再分别输出 PPT、信息图、分析总结 H5 三份中文内容包。适用于需要把美区会议整理成 decision、tradeoff、ownership、next steps 清晰一致的内容导演场景。
 ---
 
-# 会议内容打包导演
+# 美区会议内容打包导演
+
+本 skill 专门处理美区语境下的会议内容。输入可能是英文、中英混合或中文转述的美区会议；最终默认输出中文内容包，但要保留必要的英文产品名、市场术语、岗位名、渠道名和原文关键词。
+
+处理美区会议时，要特别注意：
+
+- 优先识别 decision、tradeoff、ownership、dependency、next steps，而不是平均整理所有讨论过程。
+- 美区会议常把观点表达得更直接，但仍要区分事实、假设、观点、承诺和待验证事项。
+- 不要把 market signal、user feedback、hypothesis 写成已经验证的结论。
+- 对 owner、deadline、metric、launch scope、budget、legal/privacy/compliance 边界要特别敏感；原文未明确就写“未明确”或“待确认”。
+- PPT 更偏 decision memo / execution narrative：讲清楚为什么这样选、放弃了什么、下一步谁负责。
+- 信息图更偏 map / comparison / decision path：帮助读者快速看清选择、差异、依赖和风险。
+- H5 更偏 analysis memo：保留背景、争议、假设、约束、证据强度和未解决问题。
 
 ## 硬性输出闸门
 
