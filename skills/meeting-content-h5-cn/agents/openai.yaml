@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议 H5 子导演"
+  short_description: "基于主内容池生成分析总结 H5 方向引导 JSON"
+  default_prompt: "Use $meeting-content-h5-cn with the transcript and content-pool.json to generate h5-content-package.json."

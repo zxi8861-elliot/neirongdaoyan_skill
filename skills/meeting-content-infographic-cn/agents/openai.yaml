@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议信息图子导演"
+  short_description: "基于主内容池生成信息图方向引导 JSON"
+  default_prompt: "Use $meeting-content-infographic-cn with the transcript and content-pool.json to generate infographic-content-package.json."
